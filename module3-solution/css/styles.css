@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.header-nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.navbar-collapse {
+	background-color: #2d2d2d;
+}
+
+.navbar {
+	background-color: #212121;
+	border: none;
+	border-bottom: 1px solid #C0CA33;
+}
+
+h1 {
+	margin-top: 75px;
+}
+
+.box {
+	margin: 20px 0;
+	padding: 5px 20px 20px;
+	background-color: #eee;
+}
+
+/*---------------------------------------
+MEDIA QUERIES
+----------------------------------------*/
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
